@@ -16,8 +16,11 @@ export default function App({ Component, pageProps }: AppProps) {
           property="og:description"
           content="Envoyer des messages anonymes"
         />
-        <meta property="og:image" content="URL_de_votre_image_d'aperçu" />
-        <meta property="og:url" content="/logo_bg_gradient.png" />
+        <meta property="og:image" content="/logo_bg_gradient.png" />
+        <meta
+          property="og:url"
+          content="https://astonishing-cactus-f1ef9b.netlify.app/"
+        />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <ChakraProvider>
