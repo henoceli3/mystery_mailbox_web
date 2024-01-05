@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import dotenv from "dotenv";
 import MessageBox from "./components/message_box";
 import MessageSent from "./components/message_sent";
+import Head from "next/head";
 dotenv.config();
 
 const SendMessage = () => {
@@ -52,6 +53,17 @@ const SendMessage = () => {
 
   return (
     <>
+      <Head>
+        {/* Ajoutez les balises meta d'aperçu ici */}
+        <meta property="og:title" content="Mystery Mailbox" />
+        <meta
+          property="og:description"
+          content="Envoyer des messages anonymes"
+        />
+        <meta property="og:image" content="URL_de_votre_image_d'aperçu" />
+        <meta property="og:url" content="../assets/logo_bg_gradient.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       {/* container principal */}
       <Flex h="100vh" w="100%" flexDirection={"column"} alignItems={"center"}>
         {/* partie du haut  */}
@@ -73,7 +85,7 @@ const SendMessage = () => {
           flexDirection={"column"}
           alignItems={"center"}
           justifyContent={" center"}
-        //   bg={"white"}
+          //   bg={"white"}
         >
           {message ? (
             <></>
