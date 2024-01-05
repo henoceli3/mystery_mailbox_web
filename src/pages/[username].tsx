@@ -61,7 +61,7 @@ const SendMessage = () => {
           content="Envoyer des messages anonymes"
         />
         <meta property="og:image" content="URL_de_votre_image_d'aperçu" />
-        <meta property="og:url" content="../assets/logo_bg_gradient.jpg" />
+        <meta property="og:url" content="/logo_bg_gradient.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       {/* container principal */}
