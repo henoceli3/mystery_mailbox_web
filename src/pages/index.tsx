@@ -19,7 +19,10 @@ export default function Home() {
           content="Envoyer des messages anonymes"
         />
         <meta property="og:image" content="URL_de_votre_image_d'aperçu" />
-        <meta property="og:url" content="../assets/logo_bg_gradient.jpg" />
+        <meta
+          property="og:url"
+          content="https://raw.githubusercontent.com/henoceli3/mystery_mailbox_web/main/src/assets/logo_bg_gradient.jpg"
+        />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Center h="100vh" w="100vw">
