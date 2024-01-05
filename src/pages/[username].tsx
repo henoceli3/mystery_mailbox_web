@@ -36,7 +36,7 @@ const SendMessage = () => {
   const _sendMessage = async () => {
     try {
       setIsLoading(true);
-      const url = `http://localhost:4000/messages/create`;
+      const url = `https://lazy-rose-bat-veil.cyclic.app/messages/create`;
       console.log(data);
       const response = await axios.post(url, data);
       setMessage("");
