@@ -1,4 +1,5 @@
-import { Center, Heading } from "@chakra-ui/react";
+import AppBar from "@/components/app_bar";
+import { Center, Flex, Heading } from "@chakra-ui/react";
 import Head from "next/head";
 
 export default function Home() {
@@ -21,9 +22,9 @@ export default function Home() {
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Center h="100vh" w="100vw">
-        <Heading>Home</Heading>
-      </Center>
+      <Flex minH={"100vh"} w={"100vw"}>
+        <AppBar />
+      </Flex>
     </>
   );
 }

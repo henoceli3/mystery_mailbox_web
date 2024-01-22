@@ -14,12 +14,14 @@ body {
 
 body {
   color: black;
+  font-family: "Ubuntu", sans-serif !important;
+}
+.bg-gradient {
   background: linear-gradient(
     135deg,
     hsla(29, 92%, 70%, 1) 0%,
     hsla(0, 87%, 73%, 1) 100%
   ) !important;
-  font-family: "Ubuntu", sans-serif !important;
 }
 
 a {
@@ -39,6 +41,13 @@ a {
   color: black !important;
 }
 
+.store-template {
+  background: linear-gradient(323deg, #f4f4f7, rgba(244, 244, 247, 0) 100%);
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(219 220 229 / var(--tw-border-opacity));
+}
+
 @keyframes animate-shake {
   0%,
   10%,
@@ -56,4 +65,44 @@ a {
   45% {
     transform: rotate(1deg) scale(1.05);
   }
+}
+.download-button {
+  --c: hsla(0, 87%, 73%, 1) 100%;
+  background-color: #f9b16e80;
+}
+
+.download-button span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: #f9b16e;
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+.download-button:hover span {
+  transform: translateY(0) scale(2);
+}
+.download-button span:nth-child(1) {
+  --n: 1;
+}
+
+.download-button span:nth-child(1) {
+  --n: 1;
+}
+
+.download-button span:nth-child(2) {
+  --n: 2;
+}
+
+.download-button span:nth-child(3) {
+  --n: 3;
+}
+
+.download-button span:nth-child(4) {
+  --n: 4;
 }
