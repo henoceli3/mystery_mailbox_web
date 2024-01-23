@@ -16,7 +16,7 @@ const StoreTemplates = (props: StoreTemplatesProps) => {
     <Center
       w={{
         base: "95%",
-        md: "45%",
+        md: "40%",
       }}
       h={{ base: "55vh", sm: "50vh", md: "45vh" }}
       borderRadius={"15px"}

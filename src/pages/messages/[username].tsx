@@ -73,11 +73,13 @@ const SendMessage = () => {
     setSendedBy(inputValue);
   };
 
+  const apiHost = "https://busy-jade-crab-wig.cyclic.app";
+
   const _sendMessage = async () => {
     try {
       console.log(`needAnswer: ${needAnswer}`);
       setIsLoading(true);
-      const url = `http://localhost:4000/v1/messages/create_and_send`;
+      const url = `${apiHost}/v1/messages/create_and_send`;
       await axios.post(url, data);
       setMessage("");
       setNeedAnswer(false);
@@ -94,7 +96,7 @@ const SendMessage = () => {
   const checkUsername = async () => {
     try {
       if (userName !== sendedBy) {
-        const url = `http://localhost:4000/users/checkUserName`;
+        const url = `${apiHost}/users/checkUserName`;
         const response = await axios.post(url, { userName: sendedBy });
         if (response.data.data.existUser === true) {
           setIsSenderValid(true);
