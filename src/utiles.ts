@@ -19,24 +19,24 @@ class Utiles {
 
   public getStoreTemplates() {
     const storesList = [
-      {
-        id: 1,
-        url: "https://apps.apple.com/fr/app/mystery-mailbox/id6446809058",
-        image: "/apple_store.avif",
-        alt: "apple_store",
-        title: "Télécharger pour iOS",
-        description: "Obtenez Mystery Mailbox sur l'Apple store",
-        buttonTexte : "Télécharger pour iOS"
-      },
-      {
-        id: 2,
-        url: "https://play.google.com/store/apps/details?id=com.mysterymailbox",
-        image: "/google_play.avif",
-        alt: "google_play",
-        title: "Télécharger pour Android",
-        description: "Obtenez Mystery Mailbox sur Google play",
-        buttonTexte : "Télécharger pour Android"
-      },
+      // {
+      //   id: 1,
+      //   url: "https://apps.apple.com/fr/app/mystery-mailbox/id6446809058",
+      //   image: "/apple_store.avif",
+      //   alt: "apple_store",
+      //   title: "Télécharger pour iOS",
+      //   description: "Obtenez Mystery Mailbox sur l'Apple store",
+      //   buttonTexte : "Télécharger pour iOS"
+      // },
+      // {
+      //   id: 2,
+      //   url: "https://play.google.com/store/apps/details?id=com.mysterymailbox",
+      //   image: "/google_play.avif",
+      //   alt: "google_play",
+      //   title: "Télécharger pour Android",
+      //   description: "Obtenez Mystery Mailbox sur Google play",
+      //   buttonTexte : "Télécharger pour Android"
+      // },
       {
         id: 3,
         url: "/apk/MysteryMailbox.apk",
