@@ -138,7 +138,7 @@ const SendMessage = () => {
         <meta property="og:image" content="/logo_bg_gradient.png" />
         <meta
           property="og:url"
-          content="https://5hkpl8gc-3000.uks1.devtunnels.ms/"
+          content="https://mystery-mailbox.netlify.app/"
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
