@@ -127,11 +127,8 @@ const SendMessage = () => {
     <>
       <Head>
         {/* Ajoutez les balises meta d'aperçu ici */}
-        <title>dis moi ce que tu penses...</title>
-        <meta
-          name="description"
-          content="Mystery Mailbox - Envoyer des messages anonymes"
-        />
+        <title>Mystery Mailbox</title>
+        <meta name="description" content="Envoyer des messages anonymes" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:title" content="dis moi ce que tu penses..." />
@@ -142,7 +139,7 @@ const SendMessage = () => {
         <meta property="og:image" content="/logo_bg_gradient.png" />
         <meta
           property="og:url"
-          content="https://mystery-mailbox.netlify.app/"
+          content="https://mystery-mailbox-web.vercel.app/messages/[username]"
         />
         {/* <meta name="twitter:card" content="summary_large_image" /> */}
       </Head>
