@@ -130,17 +130,18 @@ const SendMessage = () => {
         <title>Mystery Mailbox</title>
         <meta name="description" content="Envoyer des messages anonymes" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="Mystery Mailbox" />
+        
+        <meta property="og:title" content="dis moi ce que tu penses..." />
         <meta
           property="og:description"
-          content="Envoyer des messages anonymes"
+          content="Mystery Mailbox - Envoyer des messages anonymes"
         />
         <meta property="og:image" content="/logo_bg_gradient.png" />
         <meta
           property="og:url"
           content="https://mystery-mailbox.netlify.app/"
         />
-        <meta name="twitter:card" content="summary_large_image" />
+        {/* <meta name="twitter:card" content="summary_large_image" /> */}
       </Head>
       {/* container principal */}
       <Flex
