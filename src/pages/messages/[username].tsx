@@ -127,10 +127,13 @@ const SendMessage = () => {
     <>
       <Head>
         {/* Ajoutez les balises meta d'aperçu ici */}
-        <title>Mystery Mailbox</title>
-        <meta name="description" content="Envoyer des messages anonymes" />
+        <title>dis moi ce que tu penses...</title>
+        <meta
+          name="description"
+          content="Mystery Mailbox - Envoyer des messages anonymes"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
+
         <meta property="og:title" content="dis moi ce que tu penses..." />
         <meta
           property="og:description"
